@@ -10,6 +10,10 @@ func TestDarkGray(t *testing.T) {
 	fmt.Println(DarkGray(1))
 	fmt.Println(DarkGray(0.1))
 	fmt.Println(DarkGray(false))
+
+	fmt.Println(Cyan("hello world"))
+	fmt.Println(DarkGray("who are you?"))
+	fmt.Println(Blue("i'm fine,think you!"))
 }
 
 func Test_Str(t *testing.T) {
