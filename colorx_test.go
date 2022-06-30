@@ -16,6 +16,16 @@ func TestDarkGray(t *testing.T) {
 	fmt.Println(Blue("i'm fine,think you!"))
 }
 
+func Test_Showcase(t *testing.T) {
+	fmt.Println(Cyan("cyan"))
+	fmt.Println(DarkGray("dark gray"))
+	fmt.Println(Blue("blue"))
+	fmt.Println(Green("green"))
+	fmt.Println(White("white"))
+	fmt.Println(Red("red"))
+	fmt.Println(Magenta("magenta"))
+}
+
 func Test_Str(t *testing.T) {
 	fmt.Println(Cyan("hello world"))
 	fmt.Println(Cyan(1))

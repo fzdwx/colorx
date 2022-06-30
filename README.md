@@ -19,8 +19,14 @@ import (
 )
 
 func main() {
-	fmt.Println(colorx.Cyan("hello world"))
-	fmt.Println(colorx.DarkGray("who are you?"))
-	fmt.Println(colorx.Blue("i'm fine,think you!"))
+	fmt.Println(colorx.Cyan("cyan"))
+	fmt.Println(colorx.DarkGray("dark gray"))
+	fmt.Println(colorx.Blue("blue"))
+	fmt.Println(colorx.Green("green"))
+	fmt.Println(colorx.White("white"))
+	fmt.Println(colorx.Red("red"))
+	fmt.Println(colorx.Magenta("magenta"))
 }
 ```
+
+![image](https://user-images.githubusercontent.com/65269574/176684267-a0e26dac-0352-4f1b-9d70-df5bcf14d22a.png)
