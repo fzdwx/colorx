@@ -1,4 +1,5 @@
 # colorx
+我是小丑，我发现了更好用的 https://github.com/zeromicro/go-zero/blob/master/core/color/color.go
 
 the golang console color wrapper
 
